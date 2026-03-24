@@ -4,6 +4,8 @@ import { X, ExternalLink, FileText } from 'lucide-react';
 export const CertificateModal = ({ cert, onClose }) => {
   if (!cert) return null;
 
+  const isPdf = typeof cert.image === 'string' && /\.pdf($|\?)/i.test(cert.image);
+
   return (
     <div 
       className="fixed inset-0 z-[60] flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm animate-fadeIn"
@@ -24,8 +26,19 @@ export const CertificateModal = ({ cert, onClose }) => {
         </div>
         <div className="flex-1 overflow-auto bg-slate-950 p-4 flex items-center justify-center min-h-[300px]">
           {cert.image ? (
-            <img src={cert.image} alt={`Certificado de ${cert.name}`} className="max-w-full max-h-full object-contain rounded-lg shadow-lg border border-slate-800" />
-          ) : (
+              isPdf ? (
+                <iframe
+                  src={cert.image}
+                  className="w-full h-full rounded-lg border border-slate-800"
+                />
+              ) : (
+                <img
+                  src={cert.image}
+                  alt={`Certificado de ${cert.name}`}
+                  className="max-w-full max-h-full object-contain rounded-lg shadow-lg border border-slate-800"
+                />
+              )
+            ) : (
             <div className="text-slate-500 flex flex-col items-center">
               <FileText size={48} className="mb-2 opacity-50"/>
               <p>Imagen no disponible</p>

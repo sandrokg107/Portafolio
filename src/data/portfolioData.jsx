@@ -6,6 +6,9 @@ import {
 import Datamigra from '../assets/Migra/Datamigra.png';
 import Selectalm from '../assets/Migra/Selectalm.png';
 import SelectOpe from '../assets/Migra/SelectOpe.png';
+import ScrumFundamentalsPdf from '../assets/Cerficados/ScrumFundamentalsCertified-SandroCésarDomínguezAlbornoz-1153284.pdf';
+import LoginFin from '../assets/Finanzas/LoginFin.png';
+import RegisterFin from '../assets/Finanzas/RegisterFin.png';
 
 export const navLinks = [
   { name: 'Inicio', id: 'inicio', icon: <Home size={18} /> },
@@ -40,14 +43,14 @@ export const services = [
 
 export const experience = [
   {
-    role: "Junior Web Developer",
-    company: "Tu Empresa Actual",
+    role: "Programador Junior",
+    company: "Cobefar S.A.",
     period: "Actualidad", 
-    description: "Desarrollo de nuevas funcionalidades y mantenimiento de aplicaciones web. Colaboración activa con el equipo senior, aprendiendo mejores prácticas y metodologías ágiles."
+    description: "Soporte, mantenimiento y mejora de sistemas empresariales desarrollados en C# con .NET. Adicionalmente, mejora y migración de un sistema web heredado en PHP hacia una nueva arquitectura con backend en Python y frontend en Vue.js, optimizando el rendimiento y la mantenibilidad."
   },
   {
     role: "Practicante de Desarrollo",
-    company: "Empresa de Prácticas",
+    company: "",
     period: "3 Meses", 
     description: "Primer contacto con el desarrollo profesional. Apoyo en la corrección de bugs, maquetación de interfaces y participación en las reuniones diarias del equipo."
   }
@@ -68,15 +71,55 @@ export const projects = [
     ]
   },
   {
-    title: "App de Delivery",
-    category: "Proyecto de Prácticas",
-    description: "Apoyo en la creación de vistas para la aplicación móvil de repartidores. Uso de componentes reutilizables.",
-    tags: ["React Native", "Firebase"],
-    isPrivate: true,
+    title: "App Financiera - Lumina",
+    category: "Proyecto Personal",
+    description: "Aplicación desarrollada con el objetivo de mejorar la gestión de mis finanzas personales mientras refuerzo mis habilidades en desarrollo full stack. En este proyecto trabajé en la creación de vistas dinámicas y componentes reutilizables, integrando tecnologías como React, Tailwind, Python y PostgreSQL. Además, el desarrollo me permitió aplicar buenas prácticas y consolidar conocimientos adquiridos durante mi aprendizaje.",
+    tags: ["React", "Tailwind", "PostgreSQL", "Python" ],
+    isPrivate: false,
+    link: "https://finanzas-front-pi.vercel.app",
     github: "#",
     images: [
-      "https://placehold.co/600x400/0f172a/FFF?text=App+Vista+Mapa",
-      "https://placehold.co/600x400/1e293b/FFF?text=Perfil+Usuario"
+      LoginFin,
+      RegisterFin
+    ]
+  },
+  {
+    title: "Portafolio Personal",
+    category: "Proyecto Personal",
+    description: "Diseño y desarrollo de este portafolio para mostrar mis habilidades y proyectos. Totalmente responsive.",
+    tags: ["React", "Tailwind", "Lucide"],
+    isPrivate: false,
+    link: "#",
+    github: "#",
+    images: [
+      "https://placehold.co/600x400/334155/FFF?text=Mi+Portafolio",
+      "https://placehold.co/600x400/475569/FFF?text=Seccion+Proyectos"
+    ]
+  },
+  {
+    title: "Portafolio Personal",
+    category: "Proyecto Personal",
+    description: "Diseño y desarrollo de este portafolio para mostrar mis habilidades y proyectos. Totalmente responsive.",
+    tags: ["React", "Tailwind", "Lucide"],
+    isPrivate: false,
+    link: "#",
+    github: "#",
+    images: [
+      "https://placehold.co/600x400/334155/FFF?text=Mi+Portafolio",
+      "https://placehold.co/600x400/475569/FFF?text=Seccion+Proyectos"
+    ]
+  },
+  {
+    title: "Portafolio Personal",
+    category: "Proyecto Personal",
+    description: "Diseño y desarrollo de este portafolio para mostrar mis habilidades y proyectos. Totalmente responsive.",
+    tags: ["React", "Tailwind", "Lucide"],
+    isPrivate: false,
+    link: "#",
+    github: "#",
+    images: [
+      "https://placehold.co/600x400/334155/FFF?text=Mi+Portafolio",
+      "https://placehold.co/600x400/475569/FFF?text=Seccion+Proyectos"
     ]
   },
   {
@@ -104,6 +147,7 @@ export const skills = [
       { name: "CSS3", img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" },
       { name: "Tailwind", img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" },
       { name: "JavaScript", img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
+      { name: "Vue.js", img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" },
     ] 
   },
   { 
@@ -113,6 +157,11 @@ export const skills = [
       { name: "Node.js", img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" },
       { name: "Express", icon: <Server size={24} className="text-slate-400"/> },
       { name: "API REST", icon: <Globe size={24} className="text-blue-300"/> },
+      { name: "C#", img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" },
+      { name: "Python", img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
+      { name: ".NET", img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg" },
+      { name: "FastAPI", img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" },
+      { name: "Django", img: "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/django/django-plain.svg" },
     ] 
   },
   { 
@@ -122,6 +171,7 @@ export const skills = [
       { name: "Git / GitHub", img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
       { name: "Figma", img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" },
       { name: "VS Code", img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" },
+      { name: "SAP HANA Studio", img: "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/sap.svg" },
     ] 
   },
   { 
@@ -130,33 +180,66 @@ export const skills = [
     items: [
       { name: "SQL", icon: <Database size={24} className="text-slate-400"/> },
       { name: "Firebase", img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" },
+      { name: "SAP HANA", img: "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/sap.svg" },
     ] 
   },
 ];
 
 export const allCertificates = [
   { 
-    name: "Curso de Desarrollo Web Completo", 
+    name: "Curso Python - Agrupación y Agregación de Datos con Pandas", 
     issuer: "Udemy / Plataforma", 
-    year: "2023",
+    year: "2025",
     link: "#",
-    image: "https://placehold.co/800x600/1e293b/FFF?text=Certificado+Web+Dev",
+    image: "https://udemy-certificate.s3.amazonaws.com/image/UC-67b80e42-9df9-4143-932e-e60eaea84091.jpg",
     type: "Curso Online"
   },
   { 
-    name: "Introducción a React", 
-    issuer: "Plataforma de Cursos", 
-    year: "2023",
+    name: "C# desde 0: Inicia tu carrera como programador", 
+    issuer: "Udemy / Plataforma", 
+    year: "2026",
     link: "#",
-    image: "https://placehold.co/800x600/1e293b/FFF?text=React+Basics",
+    image: "https://udemy-certificate.s3.amazonaws.com/image/UC-6286ab76-f53c-43c5-9c3a-29aa6817262a.jpg",
     type: "Curso Online"
   },
   { 
-    name: "JavaScript Moderno", 
-    issuer: "freeCodeCamp", 
-    year: "2023",
+    name: "Bootcamp Agentes IA: Crea Chatbots Inteligentes", 
+    issuer: "Udemy / Plataforma", 
+    year: "2025",
     link: "https://www.freecodecamp.org",
-    image: "https://placehold.co/800x600/1e293b/FFF?text=JS+Algorithms+Certificate",
+    image: "https://udemy-certificate.s3.amazonaws.com/image/UC-0770a39c-ca9c-4cd4-b409-6924b41a9643.jpg",
+    type: "Certificación"
+  },
+  { 
+    name: "Scrum Fundamentas", 
+    issuer: "ScrumStudy0", 
+    year: "2026",
+    link: "#",
+    image: ScrumFundamentalsPdf,
+    type: "Certificación"
+  },
+  { 
+    name: "Bootcamp Agentes IA: Crea Chatbots Inteligentes", 
+    issuer: "Udemy / Plataforma", 
+    year: "2025",
+    link: "https://www.freecodecamp.org",
+    image: "https://udemy-certificate.s3.amazonaws.com/image/UC-0770a39c-ca9c-4cd4-b409-6924b41a9643.jpg",
+    type: "Certificación"
+  },
+  { 
+    name: "Bootcamp Agentes IA: Crea Chatbots Inteligentes", 
+    issuer: "Udemy / Plataforma", 
+    year: "2025",
+    link: "https://www.freecodecamp.org",
+    image: "https://udemy-certificate.s3.amazonaws.com/image/UC-0770a39c-ca9c-4cd4-b409-6924b41a9643.jpg",
+    type: "Certificación"
+  },
+  { 
+    name: "Bootcamp Agentes IA: Crea Chatbots Inteligentes", 
+    issuer: "Udemy / Plataforma", 
+    year: "2025",
+    link: "https://www.freecodecamp.org",
+    image: "https://udemy-certificate.s3.amazonaws.com/image/UC-0770a39c-ca9c-4cd4-b409-6924b41a9643.jpg",
     type: "Certificación"
   }
 ];

@@ -67,7 +67,7 @@ export const Contact = () => {
               <h2 className="text-3xl font-bold mb-4">Hablemos de tu Proyecto</h2>
               <p className="text-slate-400 mb-8 leading-relaxed">¿Tienes una idea en mente o necesitas mejorar tu plataforma actual? Cuéntame sobre tus objetivos.</p>
               <div className="space-y-4">
-                <div className="flex items-center gap-4 text-slate-300"><div className="w-10 h-10 bg-slate-700 rounded-full flex items-center justify-center text-blue-400"><Mail size={18} /></div><span>contacto@tunombre.dev</span></div>
+                <div className="flex items-center gap-4 text-slate-300"><div className="w-10 h-10 bg-slate-700 rounded-full flex items-center justify-center text-blue-400"><Mail size={18} /></div><span>sandrokg107@gmail.com</span></div>
                 <div className="flex items-center gap-4 text-slate-300"><div className="w-10 h-10 bg-slate-700 rounded-full flex items-center justify-center text-blue-400"><Linkedin size={18} /></div><span>/in/tunombre</span></div>
               </div>
             </div>

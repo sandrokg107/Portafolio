@@ -26,8 +26,8 @@ export const Hero = () => (
         </a>
       </div>
       <div className="mt-12 flex justify-center gap-6 text-slate-500">
-        <a href="#" className="hover:text-blue-400 transition-colors hover:scale-110 transform"><Github size={24} /></a>
-        <a href="#" className="hover:text-blue-400 transition-colors hover:scale-110 transform"><Linkedin size={24} /></a>
+        <a href="https://github.com/sandrokg107" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-colors hover:scale-110 transform"><Github size={24} /></a>
+        <a href="#" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-colors hover:scale-110 transform"><Linkedin size={24} /></a>
         <a href="#" className="hover:text-blue-400 transition-colors hover:scale-110 transform"><Briefcase size={24} /></a>
       </div>
     </div>
