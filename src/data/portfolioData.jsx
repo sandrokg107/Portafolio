@@ -21,6 +21,12 @@ import SelectOpe from '../assets/Migra/SelectOpe.png';
 import ScrumFundamentalsPdf from '../assets/Cerficados/ScrumFundamentalsCertified-SandroCésarDomínguezAlbornoz-1153284.pdf';
 import LoginFin from '../assets/Finanzas/LoginFin.png';
 import RegisterFin from '../assets/Finanzas/RegisterFin.png';
+import DasboardFin from '../assets/Finanzas/DashboardFin.png';
+import DeudaFin from '../assets/Finanzas/DeudaFin.png';
+import PresuouestoFin from '../assets/Finanzas/PresupuestoFin.png';
+import Reporte1Fin from '../assets/Finanzas/Reporttes1Fin.png';
+import Reporte2Fin from '../assets/Finanzas/Reportes2Fin.png';
+import TransaccionFin from '../assets/Finanzas/TransaccionFin.png';
 
 export const navLinks = [
   { name: 'Inicio', id: 'inicio', icon: <Home size={18} /> },
@@ -108,154 +114,19 @@ export const projects = [
     isPrivate: false,
     link: 'https://finanzas-front-pi.vercel.app',
     github: '#',
-    images: [LoginFin, RegisterFin],
-  },
-  {
-    title: 'App Financiera - Lumina',
-    category: 'Proyecto Personal',
-    description:
-      'Aplicación desarrollada con el objetivo de mejorar la gestión de mis finanzas personales mientras refuerzo mis habilidades en desarrollo full stack. En este proyecto trabajé en la creación de vistas dinámicas y componentes reutilizables, integrando tecnologías como React, Tailwind, Python y PostgreSQL. Además, el desarrollo me permitió aplicar buenas prácticas y consolidar conocimientos adquiridos durante mi aprendizaje.',
-    tags: ['React', 'Tailwind', 'PostgreSQL', 'Python'],
-    isPrivate: false,
-    link: 'https://finanzas-front-pi.vercel.app',
-    github: '#',
-    images: [LoginFin, RegisterFin],
-  },
-  {
-    title: 'App Financiera - Lumina',
-    category: 'Proyecto Personal',
-    description:
-      'Aplicación desarrollada con el objetivo de mejorar la gestión de mis finanzas personales mientras refuerzo mis habilidades en desarrollo full stack. En este proyecto trabajé en la creación de vistas dinámicas y componentes reutilizables, integrando tecnologías como React, Tailwind, Python y PostgreSQL. Además, el desarrollo me permitió aplicar buenas prácticas y consolidar conocimientos adquiridos durante mi aprendizaje.',
-    tags: ['React', 'Tailwind', 'PostgreSQL', 'Python'],
-    isPrivate: false,
-    link: 'https://finanzas-front-pi.vercel.app',
-    github: '#',
-    images: [LoginFin, RegisterFin],
-  },
-  {
-    title: 'App Financiera - Lumina',
-    category: 'Proyecto Personal',
-    description:
-      'Aplicación desarrollada con el objetivo de mejorar la gestión de mis finanzas personales mientras refuerzo mis habilidades en desarrollo full stack. En este proyecto trabajé en la creación de vistas dinámicas y componentes reutilizables, integrando tecnologías como React, Tailwind, Python y PostgreSQL. Además, el desarrollo me permitió aplicar buenas prácticas y consolidar conocimientos adquiridos durante mi aprendizaje.',
-    tags: ['React', 'Tailwind', 'PostgreSQL', 'Python'],
-    isPrivate: false,
-    link: 'https://finanzas-front-pi.vercel.app',
-    github: '#',
-    images: [LoginFin, RegisterFin],
-  },
-  {
-    title: 'App Financiera - Lumina',
-    category: 'Proyecto Personal',
-    description:
-      'Aplicación desarrollada con el objetivo de mejorar la gestión de mis finanzas personales mientras refuerzo mis habilidades en desarrollo full stack. En este proyecto trabajé en la creación de vistas dinámicas y componentes reutilizables, integrando tecnologías como React, Tailwind, Python y PostgreSQL. Además, el desarrollo me permitió aplicar buenas prácticas y consolidar conocimientos adquiridos durante mi aprendizaje.',
-    tags: ['React', 'Tailwind', 'PostgreSQL', 'Python'],
-    isPrivate: false,
-    link: 'https://finanzas-front-pi.vercel.app',
-    github: '#',
-    images: [LoginFin, RegisterFin],
-  },
-  {
-    title: 'App Financiera - Lumina',
-    category: 'Proyecto Personal',
-    description:
-      'Aplicación desarrollada con el objetivo de mejorar la gestión de mis finanzas personales mientras refuerzo mis habilidades en desarrollo full stack. En este proyecto trabajé en la creación de vistas dinámicas y componentes reutilizables, integrando tecnologías como React, Tailwind, Python y PostgreSQL. Además, el desarrollo me permitió aplicar buenas prácticas y consolidar conocimientos adquiridos durante mi aprendizaje.',
-    tags: ['React', 'Tailwind', 'PostgreSQL', 'Python'],
-    isPrivate: false,
-    link: 'https://finanzas-front-pi.vercel.app',
-    github: '#',
-    images: [LoginFin, RegisterFin],
-  },
-  {
-    title: 'App Financiera - Lumina',
-    category: 'Proyecto Personal',
-    description:
-      'Aplicación desarrollada con el objetivo de mejorar la gestión de mis finanzas personales mientras refuerzo mis habilidades en desarrollo full stack. En este proyecto trabajé en la creación de vistas dinámicas y componentes reutilizables, integrando tecnologías como React, Tailwind, Python y PostgreSQL. Además, el desarrollo me permitió aplicar buenas prácticas y consolidar conocimientos adquiridos durante mi aprendizaje.',
-    tags: ['React', 'Tailwind', 'PostgreSQL', 'Python'],
-    isPrivate: false,
-    link: 'https://finanzas-front-pi.vercel.app',
-    github: '#',
-    images: [LoginFin, RegisterFin],
-  },
-  {
-    title: 'App Financiera - Lumina',
-    category: 'Proyecto Personal',
-    description:
-      'Aplicación desarrollada con el objetivo de mejorar la gestión de mis finanzas personales mientras refuerzo mis habilidades en desarrollo full stack. En este proyecto trabajé en la creación de vistas dinámicas y componentes reutilizables, integrando tecnologías como React, Tailwind, Python y PostgreSQL. Además, el desarrollo me permitió aplicar buenas prácticas y consolidar conocimientos adquiridos durante mi aprendizaje.',
-    tags: ['React', 'Tailwind', 'PostgreSQL', 'Python'],
-    isPrivate: false,
-    link: 'https://finanzas-front-pi.vercel.app',
-    github: '#',
-    images: [LoginFin, RegisterFin],
-  },
-  {
-    title: 'App Financiera - Lumina',
-    category: 'Proyecto Personal',
-    description:
-      'Aplicación desarrollada con el objetivo de mejorar la gestión de mis finanzas personales mientras refuerzo mis habilidades en desarrollo full stack. En este proyecto trabajé en la creación de vistas dinámicas y componentes reutilizables, integrando tecnologías como React, Tailwind, Python y PostgreSQL. Además, el desarrollo me permitió aplicar buenas prácticas y consolidar conocimientos adquiridos durante mi aprendizaje.',
-    tags: ['React', 'Tailwind', 'PostgreSQL', 'Python'],
-    isPrivate: false,
-    link: 'https://finanzas-front-pi.vercel.app',
-    github: '#',
-    images: [LoginFin, RegisterFin],
-  },
-  {
-    title: 'Portafolio Personal',
-    category: 'Proyecto Personal',
-    description:
-      'Diseño y desarrollo de este portafolio para mostrar mis habilidades y proyectos. Totalmente responsive.',
-    tags: ['React', 'Tailwind', 'Lucide'],
-    isPrivate: false,
-    link: '#',
-    github: '#',
     images: [
-      'https://placehold.co/600x400/334155/FFF?text=Mi+Portafolio',
-      'https://placehold.co/600x400/475569/FFF?text=Seccion+Proyectos',
-    ],
-  },
-  {
-    title: 'Portafolio Personal',
-    category: 'Proyecto Personal',
-    description:
-      'Diseño y desarrollo de este portafolio para mostrar mis habilidades y proyectos. Totalmente responsive.',
-    tags: ['React', 'Tailwind', 'Lucide'],
-    isPrivate: false,
-    link: '#',
-    github: '#',
-    images: [
-      'https://placehold.co/600x400/334155/FFF?text=Mi+Portafolio',
-      'https://placehold.co/600x400/475569/FFF?text=Seccion+Proyectos',
-    ],
-  },
-  {
-    title: 'Portafolio Personal',
-    category: 'Proyecto Personal',
-    description:
-      'Diseño y desarrollo de este portafolio para mostrar mis habilidades y proyectos. Totalmente responsive.',
-    tags: ['React', 'Tailwind', 'Lucide'],
-    isPrivate: false,
-    link: '#',
-    github: '#',
-    images: [
-      'https://placehold.co/600x400/334155/FFF?text=Mi+Portafolio',
-      'https://placehold.co/600x400/475569/FFF?text=Seccion+Proyectos',
-    ],
-  },
-  {
-    title: 'Portafolio Personal',
-    category: 'Proyecto Personal',
-    description:
-      'Diseño y desarrollo de este portafolio para mostrar mis habilidades y proyectos. Totalmente responsive.',
-    tags: ['React', 'Tailwind', 'Lucide'],
-    isPrivate: false,
-    link: '#',
-    github: '#',
-    images: [
-      'https://placehold.co/600x400/334155/FFF?text=Mi+Portafolio',
-      'https://placehold.co/600x400/475569/FFF?text=Seccion+Proyectos',
+      LoginFin,
+      RegisterFin,
+      DasboardFin,
+      DeudaFin,
+      PresuouestoFin,
+      Reporte1Fin,
+      Reporte2Fin,
+      TransaccionFin,
     ],
   },
 ];
-
+  
 export const skills = [
   {
     name: 'Frontend',
