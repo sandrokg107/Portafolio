@@ -19,7 +19,7 @@ import Datamigra from '../assets/Migra/Datamigra.png';
 import Selectalm from '../assets/Migra/Selectalm.png';
 import SelectOpe from '../assets/Migra/SelectOpe.png';
 import ScrumFundamentalsPdf from '../assets/Cerficados/ScrumFundamentalsCertified-SandroCésarDomínguezAlbornoz-1153284.pdf';
-import LoginFin from '../assets/Finanzas/LoginFin.png';
+import LoginFin from '../assets/Finanzas/LoginFIn.png';
 import RegisterFin from '../assets/Finanzas/RegisterFin.png';
 import DasboardFin from '../assets/Finanzas/DashboardFin.png';
 import DeudaFin from '../assets/Finanzas/DeudaFin.png';
